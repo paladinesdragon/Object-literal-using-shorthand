@@ -10,5 +10,5 @@ const createPerson = (name, age, gender) => {
 
 const createPerson2 = (name, age, gender) => ({name, age, gender});
 
-//console.log(createPerson('me', 34, 'male'));
+console.log(createPerson('me', 34, 'male'));
 console.log(createPerson2('myself', 22, 'female'));
